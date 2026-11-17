@@ -104,7 +104,7 @@ const I18N = {
     "contact.title": "Let's make your brand impossible to scroll past.",
     "contact.lede": "Open to full-time roles, retainers and collaborations in Indonesia and abroad. Tell me what you're building.",
     "contact.emailLabel": "Email", "contact.linkedinLabel": "LinkedIn",
-    "contact.igLabel": "Agency", "contact.phoneLabel": "Phone",
+    "contact.igLabel": "Agency",
 
     "foot.tag": "Content ideas · Script · Shoot · Edit", "foot.top": "Back to top ↑"
   },
@@ -209,7 +209,7 @@ const I18N = {
     "contact.title": "Mari buat brandmu tak bisa dilewati.",
     "contact.lede": "Terbuka untuk peran full-time, retainer, dan kolaborasi di dalam maupun luar negeri. Ceritakan apa yang sedang kamu bangun.",
     "contact.emailLabel": "Email", "contact.linkedinLabel": "LinkedIn",
-    "contact.igLabel": "Agensi", "contact.phoneLabel": "Telepon",
+    "contact.igLabel": "Agensi",
 
     "foot.tag": "Ide konten · Naskah · Syuting · Edit", "foot.top": "Kembali ke atas ↑"
   }
