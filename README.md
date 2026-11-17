@@ -19,10 +19,10 @@
 - **Label correctness enforced**: `FEED` = single post, `FEED (CAROUSEL)` = multi-image post, `REEL` = video. Dr Wirawan's `DfbUUpUErb5` is now `feed (carousel)`; Kanaan's `DW0GMixBDAG` is now `reel`.
 - **Optipro first item replaced** with reel `Det-DH5uR8q`.
 - **Sinar Baru's 4th item** replaced with reel `DU43-QNEgl-`.
-- **Ubud reels all share one height**: `DaRvP30yWvC` (16:9) now fills the 9:16 frame with `object-fit: cover` instead of being centred with black bars, so pairs of reels line up without the odd gap.
+- **Ubud reel `DaRvP30yWvC` kept at 16:9**: the whole video is centred inside a 9:16 black frame (no cropping) while every Ubud frame keeps the same height, so the pairings stay aligned. Its link now uses the `/reels/` Instagram permalink.
 - **Indeed link removed**; Seek remains.
 - All images and videos are now keyed by **post ID**, so reordering never breaks the preview.
-- Nothing is cropped except Ubud's 16:9 reel (filled to 9:16 for equal heights); website uses native image heights and deck/PDF frames use `object-fit: contain`.
+- Nothing is cropped: the website uses native image/video ratios and deck/PDF frames use `object-fit: contain`.
 
 ## Files
 
