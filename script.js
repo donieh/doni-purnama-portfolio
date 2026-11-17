@@ -19,17 +19,17 @@ const I18N = {
     "rail.role": "Content maker / strategist",
     "status.available": "Available for work",
     "role.headline": "THE WHOLE PROCESS.",
-    "role.clarify": "Verde Creative manages the accounts. I make the pieces.",
+    "role.clarify": "VERDE Creative manages the accounts. I make the pieces.",
     "work.headline": "SELECTED WORK",
     "contact.headline": "LET'S MAKE SOMETHING VISIBLE.",
     "nav.about": "About", "nav.services": "My role", "nav.work": "Work",
     "nav.numbers": "Impact", "nav.hire": "Let's talk",
 
-    "hero.note2": "Co-founder, Verde Creative · Content ideas, scripts, shooting, editing & feeds",
+    "hero.note2": "Co-founder, VERDE Creative · Content ideas, scripts, shooting, editing & feeds",
     "hero.badgeNum": "MADE", "hero.badgeLabel": "by me",
     "role.label": "02 — My role",
     "role.title": "I make the things people actually see.",
-    "role.intro": "Verde Creative manages the accounts. Inside the studio, I own the content process end to end — from the first trend idea to the final feed layout. The four pieces shown for each brand below are work I made myself.",
+    "role.intro": "VERDE Creative manages the accounts. Inside the agency, I own the content process end to end — from the first trend idea to the final feed layout. The four pieces shown for each brand below are work I made myself.",
     "role1.title": "Trend & idea research", "role1.body": "Finding the angle worth making — what the audience cares about right now.",
     "role2.title": "Scripting", "role2.body": "Writing the hook, the flow and the words that sound like the brand.",
     "role3.title": "Shooting", "role3.body": "Directing and capturing the footage, on location when the story needs it.",
@@ -38,7 +38,7 @@ const I18N = {
     "role6.title": "Publishing & scheduling", "role6.body": "Getting each piece out at the right moment, on every platform.",
     "work.title2": "Four pieces per brand. Made by me.",
     "work.intro2": "A small, honest selection of individual posts and reels. Open any piece to see it live.",
-    "work.note": "Individual pieces I created as part of Verde Creative's work. The accounts are managed by the studio.",
+    "work.note": "Individual pieces I created as part of VERDE Creative's work. The accounts are managed by the agency.",
     "viewPost": "View post ↗",
     "status.ongoing": "Ongoing", "status.completed": "Completed client",
 
@@ -46,7 +46,7 @@ const I18N = {
     "hero.title": "I turn everyday brands into accounts people actually care about.",
     "hero.lede": "I research the trend, write the script, shoot the footage, edit the video and shape the feed — the whole content process, piece by piece.",
     "hero.ctaWork": "See the work", "hero.ctaMail": "Get in touch",
-    "hero.note": "Co-founder, Verde Creative · Open to roles & collaborations",
+    "hero.note": "Co-founder, VERDE Creative · Open to roles & collaborations",
     "hero.badge": "brands managed",
     "hero.caption": "IDEAS · SCRIPT · SHOOT · EDIT",
 
@@ -78,7 +78,7 @@ const I18N = {
 
     "work.label": "03 — Selected work",
     "work.title": "Seven brands. Different worlds. One standard.",
-    "work.intro": "A selection of accounts I plan, produce and grow through Verde Creative. Tap through to see the live work.",
+    "work.intro": "A selection of accounts I plan, produce and grow through VERDE Creative. Tap through to see the live work.",
     "years": "yrs", "year": "year", "months": "months", "followers": "followers",
     "viewAccount": "View account ↗",
     "brand1.sector": "Optical retail", "brand1.platform": "Instagram & TikTok",
@@ -98,7 +98,7 @@ const I18N = {
 
     "numbers.label": "04 — Impact",
     "numbers.title": "The work, in numbers.",
-    "numbers.note": "Figures are based on accounts managed through Verde Creative and are verifiable on the live profiles linked above.",
+    "numbers.note": "Figures are based on accounts managed through VERDE Creative and are verifiable on the live profiles linked above.",
 
     "contact.label": "04 — Contact",
     "contact.title": "Let's make your brand impossible to scroll past.",
@@ -124,17 +124,17 @@ const I18N = {
     "rail.role": "Pembuat konten / strategist",
     "status.available": "Tersedia untuk kerja",
     "role.headline": "SELURUH PROSES.",
-    "role.clarify": "Verde Creative yang mengelola akun. Aku yang membuat karyanya.",
+    "role.clarify": "VERDE Creative yang mengelola akun. Aku yang membuat karyanya.",
     "work.headline": "KARYA PILIHAN",
     "contact.headline": "MARI BUAT SESUATU YANG TERLIHAT.",
     "nav.about": "Tentang", "nav.services": "Peran saya", "nav.work": "Karya",
     "nav.numbers": "Dampak", "nav.hire": "Mari bicara",
 
-    "hero.note2": "Co-founder, Verde Creative · Ide konten, naskah, syuting, editing video & feed",
+    "hero.note2": "Co-founder, VERDE Creative · Ide konten, naskah, syuting, editing video & feed",
     "hero.badgeNum": "DIBUAT", "hero.badgeLabel": "oleh saya",
     "role.label": "02 — Peran saya",
     "role.title": "Aku yang membuat hal-hal yang benar-benar dilihat orang.",
-    "role.intro": "Verde Creative yang mengelola akun. Di dalam studio, aku memegang proses konten dari awal hingga akhir — dari ide tren pertama sampai tata letak feed terakhir. Empat karya per brand di bawah ini semuanya dibuat olehku sendiri.",
+    "role.intro": "VERDE Creative yang mengelola akun. Di dalam agensi, aku memegang proses konten dari awal hingga akhir — dari ide tren pertama sampai tata letak feed terakhir. Empat karya per brand di bawah ini semuanya dibuat olehku sendiri.",
     "role1.title": "Riset tren & ide", "role1.body": "Mencari sudut yang layak dibuat — apa yang sedang diperhatikan audiens.",
     "role2.title": "Penulisan naskah", "role2.body": "Menulis hook, alur, dan kata-kata yang terdengar seperti brandnya.",
     "role3.title": "Syuting", "role3.body": "Mengarahkan dan merekam footage, termasuk ke lokasi saat ceritanya membutuhkan.",
@@ -143,7 +143,7 @@ const I18N = {
     "role6.title": "Publikasi & penjadwalan", "role6.body": "Memastikan setiap karya tayang di waktu yang tepat di semua platform.",
     "work.title2": "Empat karya per brand. Dibuat olehku.",
     "work.intro2": "Pilihan kecil dan jujur dari postingan serta reel individual. Klik salah satu untuk melihatnya langsung.",
-    "work.note": "Karya individual yang kubuat sebagai bagian dari Verde Creative. Akun dikelola oleh studio.",
+    "work.note": "Karya individual yang kubuat sebagai bagian dari VERDE Creative. Akun dikelola oleh agensi.",
     "viewPost": "Lihat karya ↗",
     "status.ongoing": "Berjalan", "status.completed": "Klien selesai",
 
@@ -151,7 +151,7 @@ const I18N = {
     "hero.title": "Aku mengubah brand sehari-hari jadi akun yang benar-benar diperhatikan orang.",
     "hero.lede": "Aku mencari tren, menulis naskah, merekam footage, mengedit video, dan membentuk feed — seluruh proses konten, satu per satu.",
     "hero.ctaWork": "Lihat karya", "hero.ctaMail": "Hubungi saya",
-    "hero.note": "Co-founder, Verde Creative · Terbuka untuk peran & kolaborasi",
+    "hero.note": "Co-founder, VERDE Creative · Terbuka untuk peran & kolaborasi",
     "hero.badge": "brand ditangani",
     "hero.caption": "IDE · NASKAH · SYUTING · EDIT",
 
@@ -183,7 +183,7 @@ const I18N = {
 
     "work.label": "03 — Karya pilihan",
     "work.title": "Tujuh brand. Dunia berbeda. Satu standar.",
-    "work.intro": "Sebagian akun yang saya rencanakan, produksi, dan kembangkan lewat Verde Creative. Klik untuk melihat karyanya langsung.",
+    "work.intro": "Sebagian akun yang saya rencanakan, produksi, dan kembangkan lewat VERDE Creative. Klik untuk melihat karyanya langsung.",
     "years": "thn", "year": "tahun", "months": "bulan", "followers": "pengikut",
     "viewAccount": "Lihat akun ↗",
     "brand1.sector": "Toko optik", "brand1.platform": "Instagram & TikTok",
@@ -203,7 +203,7 @@ const I18N = {
 
     "numbers.label": "04 — Dampak",
     "numbers.title": "Karyanya, dalam angka.",
-    "numbers.note": "Angka didasarkan pada akun yang ditangani melalui Verde Creative dan dapat diverifikasi pada profil langsung di atas.",
+    "numbers.note": "Angka didasarkan pada akun yang ditangani melalui VERDE Creative dan dapat diverifikasi pada profil langsung di atas.",
 
     "contact.label": "04 — Kontak",
     "contact.title": "Mari buat brandmu tak bisa dilewati.",
