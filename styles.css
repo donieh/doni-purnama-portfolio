@@ -214,9 +214,56 @@ html[lang="id"] .lang-id{color:var(--lime);font-weight:800}
   .foot{flex-direction:column}
 }
 
+/* ==========================================================================
+   Motion — layered but restrained. Everything is transform/opacity only.
+   ========================================================================== */
+@keyframes riseIn{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes floatFrame{0%,100%{transform:translateY(0) rotate(1.5deg)}50%{transform:translateY(-9px) rotate(1deg)}}
+@keyframes wobble{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(-5deg) translateY(-3px)}}
+@keyframes pulseDot{0%{box-shadow:0 0 0 0 rgba(204,255,0,.45)}70%{box-shadow:0 0 0 11px rgba(204,255,0,0)}100%{box-shadow:0 0 0 0 rgba(204,255,0,0)}}
+@keyframes grainShift{0%{transform:translate3d(0,0,0)}33%{transform:translate3d(-16px,10px,0)}66%{transform:translate3d(14px,-14px,0)}100%{transform:translate3d(0,0,0)}}
+
+/* scroll progress */
+.progress{position:fixed;top:0;left:0;height:3px;width:100%;z-index:210;background:var(--lime);
+  transform:scaleX(0);transform-origin:0 50%;pointer-events:none}
+
+/* hero entrance */
+.js .kicker{animation:riseIn .7s cubic-bezier(.2,.7,.2,1) both .05s}
+.js .hero-copy{animation:riseIn .8s cubic-bezier(.2,.7,.2,1) both .13s}
+.js .hero-visual{animation:riseIn .85s cubic-bezier(.2,.7,.2,1) both .24s}
+
+/* reveal on scroll */
+.js .reveal{opacity:0;transform:translateY(24px);
+  transition:opacity .7s cubic-bezier(.2,.7,.2,1) var(--d,0s),transform .7s cubic-bezier(.2,.7,.2,1) var(--d,0s)}
+.js .reveal.in{opacity:1;transform:none}
+
+/* ambient details */
+.js .grain{inset:-40px;animation:grainShift 7s steps(3) infinite}
+.js .available span:first-child{animation:pulseDot 2.6s ease-out infinite}
+.js .portrait-frame{animation:floatFrame 7s ease-in-out infinite}
+.js .sticker{animation:wobble 5s ease-in-out infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+
+/* button shine + card feedback */
+.btn{position:relative;overflow:hidden}
+.btn::after{content:"";position:absolute;top:0;bottom:0;left:-120%;width:55%;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.28),transparent);
+  transform:skewX(-22deg);transition:left .55s ease;pointer-events:none}
+.btn:hover::after{left:130%}
+.kind{transition:transform .3s ease}
+.post:hover .kind{transform:translateY(-4px)}
+
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .js .reveal{opacity:1!important;transform:none!important}
+}
+
 /* ---------- Print / PDF ---------- */
 @media print{
   @page{size:A4;margin:14mm}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .js .reveal{opacity:1!important;transform:none!important}
+  .progress{display:none!important}
   html,body{background:#fff!important;color:#000!important}
   .grain,.rail,.marquee,.sticker,.hero-actions{display:none!important}
   .main{margin:0}

@@ -6,6 +6,7 @@
 
 ## Latest changes
 
+- **Motion layer added**: staggered hero entrance, scroll-reveal with per-element delays, thin lime scroll-progress bar, floating portrait, pulsing availability dot, wobbling sticker, drifting grain, button shine and card/badge hover feedback. All animations are transform/opacity only and are disabled under `prefers-reduced-motion` and in print/PDF output. A fallback timer ensures content is never left hidden if the observer fails.
 - **About description revised** (EN + ID) on the site and in the deck/PDFs: VERDE Creative was built by Doni and his two partners (three co-founders working side by side), content trend research, scriptwriting, short-form video editing, graphic design and client relations for 7+ brands, Sapphire Wedding Organization, Miss Evelyn Cake & Pastry, Sabda Setia Institute of Technology and Business, PTE B2 and Teochew.
 - **All 16 reels now autoplay.** The five that were previously static posters (`DfJnPOdRYwI`, `DY6Nvt7yqUh`, `DctDdmzSOQU`, `DaLLecQReRW`, `Det-DH5uR8q`) were fetched from their real Instagram sources, converted to H.264 + fast-start, and swapped from `<img>` to lazy `<video>` elements. Verified: all 16 play with no errors.
 - **Contact label** changed from "Studio" to "Agency" / "Agensi", matching VERDE being a creative agency rather than a studio.

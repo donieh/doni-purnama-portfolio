@@ -307,3 +307,52 @@ const I18N = {
     });
   });
 })();
+
+/* ==========================================================================
+   Motion: staggered reveal on scroll + a thin scroll-progress bar.
+   The .reveal class comes from the markup; if JS fails to initialise, a
+   fallback timer shows everything so content is never left hidden.
+   ========================================================================== */
+(function () {
+  var items = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+  if (!items.length) return;
+
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -6% 0px', threshold: 0.06 });
+    items.forEach(function (el) { io.observe(el); });
+  } else {
+    items.forEach(function (el) { el.classList.add('in'); });
+  }
+
+  // Safety net: if anything never intersects (or JS errors later), show it.
+  window.setTimeout(function () {
+    items.forEach(function (el) { el.classList.add('in'); });
+  }, 3000);
+
+  var bar = document.querySelector('.progress');
+  if (!bar) return;
+  var ticking = false;
+
+  function update() {
+    var max = document.documentElement.scrollHeight - window.innerHeight;
+    var p = max > 0 ? window.scrollY / max : 0;
+    bar.style.transform = 'scaleX(' + Math.max(0, Math.min(1, p)) + ')';
+    ticking = false;
+  }
+
+  window.addEventListener('scroll', function () {
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(update);
+    }
+  }, { passive: true });
+  window.addEventListener('resize', update, { passive: true });
+  update();
+})();
