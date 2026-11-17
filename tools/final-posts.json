@@ -1,0 +1,207 @@
+{
+  "brands": [
+    {
+      "slug": "optipro",
+      "name": "OPTIPRO",
+      "sectorKey": "brand1.sector",
+      "platformKey": "brand1.platform",
+      "statusKey": "status.ongoing",
+      "items": [
+        {
+          "url": "https://www.instagram.com/p/DSjpv-ZkyWi/?img_index=1",
+          "kind": "feed (carousel)",
+          "caption": "\"Kalau Santa Claus aja butuh kacamata yang tepat, berarti kamu juga butuh kacamata yang tepat!\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/DaLLecQReRW/",
+          "kind": "reel",
+          "caption": "\"Klakson sekali, tapi sampai orang di dalam toko juga ikutan nengok.\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/Det-DH5uR8q/",
+          "kind": "reel",
+          "caption": "\"Ooopss, tertangkap basah ?????\""
+        },
+        {
+          "url": "https://www.instagram.com/p/DdROAgCmZDi/?img_index=1",
+          "kind": "feed (carousel)",
+          "caption": "\"Waspada kabut asap, warga Pontianak — debu Karhutla juga berbahaya bagi mata.\""
+        }
+      ]
+    },
+    {
+      "slug": "cempaka",
+      "name": "CEMPAKA DENTAL STUDIO",
+      "sectorKey": "brand2.sector",
+      "platformKey": "brand2.platform",
+      "statusKey": "status.ongoing",
+      "items": [
+        {
+          "url": "https://www.instagram.com/p/DPQMQFjD1C3/",
+          "kind": "feed (carousel)",
+          "caption": "\"Booking perawatan gigi jadi super gampang dan anti ribet.\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/DeYyELCvJHh/",
+          "kind": "reel",
+          "caption": "\"Sudahkan kamu periksa gigi tahun ini?\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/DUxWRo-D7Lp/",
+          "kind": "reel",
+          "caption": "\"Saraf gigi sudah mati, tapi kok masih bisa sakit?\""
+        },
+        {
+          "url": "https://www.instagram.com/p/DXWYFOCjx80/?img_index=1",
+          "kind": "feed (carousel)",
+          "caption": "\"Kenali bedanya bekas cabut gigi yang normal & tidak.\""
+        }
+      ]
+    },
+    {
+      "slug": "ubud-borneo",
+      "name": "UBUD BORNEO",
+      "sectorKey": "brand3.sector",
+      "platformKey": "brand3.platform",
+      "statusKey": "status.ongoing",
+      "items": [
+        {
+          "url": "https://www.instagram.com/reel/DWa8Dw_EhLR/",
+          "kind": "reel",
+          "caption": "\"Definisi uang membeli kebahagiaan yang sesungguhnya.\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/DaRvP30yWvC/",
+          "kind": "reel",
+          "caption": "\"Do you understand the word that are coming out of my mouth?\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/DctDdmzSOQU/",
+          "kind": "reel",
+          "caption": "\"Perayaan hangat yang dihadiri keluarga dan sahabat terdekat.\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/DYHMs8OyOPj/",
+          "kind": "reel",
+          "caption": "\"Kenapa harus milih kalau bisa dua-duanya? Punya unit di Ubud Borneo.\""
+        }
+      ]
+    },
+    {
+      "slug": "dr-wirawan",
+      "name": "DR WIRAWAN",
+      "sectorKey": "brand4.sector",
+      "platformKey": "brand4.platform",
+      "statusKey": "status.ongoing",
+      "items": [
+        {
+          "url": "https://www.instagram.com/p/DfE5yi9yfgB/",
+          "kind": "feed",
+          "caption": "\"Jangan abaikan tanda bahaya pada mata Anda!\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/DY6Nvt7yqUh/",
+          "kind": "reel",
+          "caption": "\"Retinopati diabetik perlu ditangani sesuai tingkat keparahannya.\""
+        },
+        {
+          "url": "https://www.instagram.com/p/Dbvd_6wSj9p/",
+          "kind": "reel",
+          "caption": "\"Mata berair tidak selalu berarti sehat — bisa jadi tanda gangguan.\""
+        },
+        {
+          "url": "https://www.instagram.com/p/DfbUUpUErb5/?img_index=1",
+          "kind": "feed (carousel)",
+          "caption": "\"Paparan sinar UV juga mengancam kesehatan mata, bukan hanya kulit.\""
+        }
+      ]
+    },
+    {
+      "slug": "dr-asro",
+      "name": "DR ASRO",
+      "sectorKey": "brand5.sector",
+      "platformKey": "brand5.platform",
+      "statusKey": "status.ongoing",
+      "items": [
+        {
+          "url": "https://www.instagram.com/p/DeBgzTdIHwX/?img_index=1",
+          "kind": "feed (carousel)",
+          "caption": "\"Mata anak minus? Bukan HP-nya, tapi jarak pandangnya.\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/DfJnPOdRYwI/",
+          "kind": "reel",
+          "caption": "\"Operasi katarak pakai LASER? Ternyata itu Fakoemulsifikasi.\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/De8y4ZMxbE8/",
+          "kind": "reel",
+          "caption": "\"Katarak mulai mengganggu? Jangan tunggu sampai 'matang'.\""
+        },
+        {
+          "url": "https://www.instagram.com/p/DfRJ9yCoDSh/?img_index=1",
+          "kind": "feed (carousel)",
+          "caption": "\"Si kecil sering ngucek mata atau memicingkan? Kenali gejalanya sejak dini.\""
+        }
+      ]
+    },
+    {
+      "slug": "kenaan",
+      "name": "SEKOLAH KRISTEN KANAAN",
+      "sectorKey": "brand7.sector",
+      "platformKey": "brand7.platform",
+      "statusKey": "status.completed",
+      "items": [
+        {
+          "url": "https://www.instagram.com/p/DThGoBOEanP/?img_index=1",
+          "kind": "feed (carousel)",
+          "caption": "\"Pendidikan bukan hanya akademik — tumbuh dalam pengetahuan, karakter, dan iman.\""
+        },
+        {
+          "url": "https://www.instagram.com/p/DW0GMixBDAG/",
+          "kind": "reel",
+          "caption": "\"Ternyata masih satu frekuensi! Gesture Challenge bareng guru dan siswa.\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/DQVQh6igYvw/",
+          "kind": "reel",
+          "caption": "\"Suara ikrar kembali terdengar. Selamat Hari Sumpah Pemuda.\""
+        },
+        {
+          "url": "https://www.instagram.com/p/DVC4ZAzAW9s/?img_index=1",
+          "kind": "feed (carousel)",
+          "caption": "\"Khawatir akan hasilnya? Tenang, kamu nggak sendiri.\""
+        }
+      ]
+    },
+    {
+      "slug": "sinar-baru",
+      "name": "OPTIK SINAR BARU",
+      "sectorKey": "brand6.sector",
+      "platformKey": "brand6.platform",
+      "statusKey": "status.completed",
+      "items": [
+        {
+          "url": "https://www.instagram.com/p/DX1UjK6kUey/",
+          "kind": "feed",
+          "caption": "\"Stop biarin mata kamu tersiksa! Lindungi dengan Lensa Bluecut.\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/DQBZbekACpr/",
+          "kind": "reel",
+          "caption": "\"Panggilan untuk warga Pontianak: ganti kacamata tanpa bikin dompet nangis.\""
+        },
+        {
+          "url": "https://www.instagram.com/reel/DU43-QNEgl-/",
+          "kind": "reel",
+          "caption": "\"Jangan tunggu penglihatan buram baru peduli kesehatan mata.\""
+        },
+        {
+          "url": "https://www.instagram.com/p/DR3u4tQkpgA/",
+          "kind": "feed",
+          "caption": "\"Kacamata mulai dari 165 ribu — sudah termasuk frame + lensa!\""
+        }
+      ]
+    }
+  ]
+}
