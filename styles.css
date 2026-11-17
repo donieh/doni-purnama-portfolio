@@ -94,7 +94,7 @@ html[lang="id"] .lang-id{color:var(--lime);font-weight:800}
 
 /* Marquee */
 .marquee{background:var(--ink);color:var(--lime);overflow:hidden;padding:13px 0;border-top:1px solid var(--ink)}
-.marquee-track{display:flex;gap:0;white-space:nowrap;width:max-content;animation:scroll 26s linear infinite}
+.marquee-track{display:flex;gap:0;white-space:nowrap;width:max-content;animation:scroll 52s linear infinite}
 .marquee-track span{font-family:var(--display);font-size:18px;letter-spacing:4px;padding-right:30px}
 @keyframes scroll{to{transform:translateX(-50%)}}
 @media(prefers-reduced-motion:reduce){.marquee-track{animation:none}}
